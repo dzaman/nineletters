@@ -1,18 +1,18 @@
 Solver and word tester for `nineletters`
 
-Setup: 
+**Setup:**
 
 ```
 npm install
 ```
 
-Test
+**Test:**
 
 ```
 npm test
 ```
 
-Examples:
+**Examples:**
 
 ```
 # test solving an example puzzle (takes 20 seconds)
