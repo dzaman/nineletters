@@ -12,6 +12,14 @@ npm install
 npm test
 ```
 
+**Use:**
+
+This project has not been pushed to NPM, so it must be installed directly from Github
+
+```
+npm install github:dzaman/nineletters-helper
+```
+
 **Examples:**
 
 ```

@@ -1,12 +1,12 @@
 {
   "name": "nineletters-helper",
   "version": "1.0.0",
-  "description": "",
+  "description": "Solver and word tester for nineletters",
   "main": "solve.js",
   "scripts": {
     "test": "node_modules/.bin/jest"
   },
-  "author": "",
+  "author": "Matthew Dzaman <matthew@dzaman.org>",
   "license": "ISC",
   "dependencies": {
     "check-word": "^1.1.0",
