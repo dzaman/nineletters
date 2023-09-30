@@ -1,4 +1,4 @@
 const { solve } = require('./solve');
 
-const startingLetters = 'ozzxsfebu'.split('');
+const startingLetters = 'aizlqclzu'.split('');
 console.log(solve(startingLetters, 3));

@@ -1,6 +1,6 @@
 {
   "name": "nineletters-helper",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Solver and word tester for nineletters",
   "main": "solve.js",
   "scripts": {

@@ -33,7 +33,13 @@ const CHAR_SCORES = {
   z: 10,
 };
 
-const WORDS = readWords();
+let WORDS;
+
+setWords();
+
+function setWords(wordlist = 'wordlists/nwl2020-naspa-word-list-2020.txt') {
+  WORDS = readWords(wordlist);
+}
 
 function computeScore(word) {
   let score = 0;
@@ -86,10 +92,10 @@ function makeWords(list) {
   return words;
 }
 
-function readWords(filename = 'words.txt') {
+function readWords(filename) {
   const words = new Map();
 
-  const content = fs.readFileSync(filename).toString().split('\n').map((s) => s.trim());
+  const content = fs.readFileSync(filename).toString().split('\n').map((s) => s.split(' ')[0].trim());
 
   try {
     return makeWords(content);
@@ -211,5 +217,6 @@ module.exports = {
   makeWords,
   parseWord,
   readWords,
+  setWords,
   solve,
 };
